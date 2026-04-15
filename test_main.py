@@ -11,8 +11,5 @@ class TestMathOperations(unittest.TestCase):
         self.assertEqual(subtract(5, 3), 2)
         self.assertEqual(subtract(0, 0), 0)
 
-    def test_add(self):
-        self.assertEqual(add(2,2),5)
-
 if __name__ == '__main__':
     unittest.main()
